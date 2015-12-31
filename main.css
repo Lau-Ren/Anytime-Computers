@@ -23,12 +23,31 @@ padding-bottom: 10px;
 }
 
 
+.profile .profileImage {
+  
+
+  width: 450px;
+  height: 250px;
+  background-image: url('././images/computerMan.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px 300px;
+  position: relative;
+  top: 20px;
+
+}
+
+
+
+
 .jumbotron {
   height: 320px;
   background-image: url('././images/home.jpg');
   background-size: 1950px 600px;
 
 }
+
+
+
 
 .jumbotron h1{ 
   font-family: 'Oxygen Mono',serif;
