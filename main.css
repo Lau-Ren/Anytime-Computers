@@ -1,9 +1,11 @@
-
+* {
+font-family: 'Verdana',serif;
+}
 
 .nav a {
-  font-family: 'Oxygen Mono',serif;
+  /*font-family: 'Oxygen Mono',serif;*/
   color: #000000;
-  font-size: 20px;
+  font-size: 16px;
 padding-bottom: 10px;
 
 /*
@@ -14,23 +16,20 @@ padding-bottom: 10px;
 }
 
 .nav  {
-
   height: 50px
 }
 
 .nav li {
-  display: inline;
+  display: inline-block;
 }
 
 
 .profile .profileImage {
-  
-
   width: 450px;
   height: 250px;
   background-image: url('././images/computerMan.jpg');
   background-repeat: no-repeat;
-  background-size: 500px 300px;
+  background-size: 400px 250px;
   position: relative;
   top: 20px;
 
@@ -40,7 +39,7 @@ padding-bottom: 10px;
 
 
 .jumbotron {
-  height: 320px;
+  height: 250px;
   background-image: url('././images/home.jpg');
   background-size: 1950px 600px;
 
@@ -50,19 +49,19 @@ padding-bottom: 10px;
 
 
 .jumbotron h1{ 
-  font-family: 'Oxygen Mono',serif;
-  font-size:48px;
+  /*font-family: 'Oxygen Mono',serif;*/
+  font-size:30px;
   font-weight: bold;
   color: #FFFFFF;
 
 }
 
 .jumbotron p {
-  font-family: 'Oxygen Mono',serif;
+/*font-family: 'Oxygen Mono',serif;*/
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
-  top: 50px;
+  top: 15px;
 }
 
 
@@ -100,7 +99,7 @@ padding-bottom: 20px;
 
 }
 .sub-header h2{
-  font-family: 'Oxygen Mono',serif;
+  /*font-family: 'Oxygen Mono',serif;*/
   font-size:24px;
   font-weight: bold;
   position: relative;
@@ -120,26 +119,20 @@ padding-bottom: 20px;
 
 
 .sub-header .container h3 {
-  font-family: 'Oxygen Mono',serif;
+  /*font-family: 'Oxygen Mono',serif;*/
   font-size:18px;
   font-weight: bold;
 }
 
 
-.sub-header .container p {
-  font-family: 'Oxygen Mono',serif;
-}
-
-
-
-
 .footerholder {
     background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    position: fixed;
+    padding-top: 50px;
+    bottom: 0px;
+    /*position: fixed;*/
     text-align: center;
     width: 100%;
-  font-family: 'Oxygen Mono',serif;
+  /*font-family: 'Oxygen Mono',serif;*/
 }
 
 
@@ -162,6 +155,7 @@ padding-bottom: 20px;
   background-size: 150px 75px;
   position: relative;
   top: 20px;
+
 }
 
 
@@ -172,7 +166,7 @@ padding-bottom: 20px;
 }
 
 form {
-  font-family: 'Oxygen Mono',serif;
+  /*font-family: 'Oxygen Mono',serif;*/
 
 
 }
@@ -191,9 +185,9 @@ form {
 
 
 
-/*----------------------------------------------
+----------------------------------------------
 CSS Settings For HTML Div ExactCenter
-------------------------------------------------*/
+------------------------------------------------
 .head h3 {
 padding-bottom:25px;
 }
@@ -224,7 +218,7 @@ textarea {
 	border:1px solid #fff;
 	color:#fff;
 	font-size:18px
- 	font-family: 'Oxygen Mono',serif;
+ 	/*font-family: 'Oxygen Mono',serif;*/
 }
 div#feedback {
 	

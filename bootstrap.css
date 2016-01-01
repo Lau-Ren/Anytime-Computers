@@ -185,9 +185,9 @@ h2, h3 {
 select {
     background: #fff!important;
 }
-.navbar {
+/*.navbar {
     display: none;
-}
+}*/
 .table td, .table th {
     background-color: #fff!important;
 }
