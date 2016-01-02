@@ -1,8 +1,8 @@
 * {
-font-family: 'Verdana', serif;
+font-family: 'Arial' ;
 }
 h1{
-   font-size:21px;
+   font-size:24px;
 }
 
 h2 {
@@ -40,6 +40,7 @@ padding:0px 20px;
 .navbar-left{
 float: left;
 padding-left: 0px;
+
 }
 .navbar-right{
   float: right;
@@ -62,11 +63,22 @@ padding-left: 0px;
 
 }
 
+
 .nav li {
   display: inline-block;
+
 }
 
 
+
+.nav #contact{
+padding-left: 15px;
+
+}
+.nav #location{
+padding-left: 15px;
+
+}
 
 .jumbotron {
   height: 110px;
