@@ -92,6 +92,7 @@ padding-left: 15px;
   /*font-size:25px;*/
   font-weight: bold;
   color: #FFFFFF;
+padding-top:20px;
 
 }
 
@@ -100,13 +101,13 @@ padding-left: 15px;
   /*font-size: 15px;*/
   font-style: italic;
   position: relative;
-  top: 15px;
+  margin-top: 5px;
 }
 
 
 .jumbotron .container {
   position: relative;
-  top: 10px;
+ 
 }
 
 #profile {
