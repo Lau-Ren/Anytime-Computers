@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+	<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
 	<title> Anytime Computer Services- No fix no charge</title>
 	<meta name="Computer and printer Repairs, virus removal, data recovery, technical Support, setups, upgrades. 		Located in 	Wellington, New Zealand">
 	
 
-<script
-src="http://maps.googleapis.com/maps/api/js">
-</script>
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(-41.328578, 174.771908),
-    zoom:13,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+	<script
+	src="http://maps.googleapis.com/maps/api/js">
+	</script>
+	<script>
+	function initialize() {
+		var mapProp = {
+			center:new google.maps.LatLng(-41.328578, 174.771908),
+			zoom:13,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+		var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
+		var marker=new google.maps.Marker({
+			position:myCenter,
+			});
 
+		marker.setMap(map);
+		}
 
-var marker=new google.maps.Marker({
-  position:myCenter,
-  });
-
-marker.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
-
-
-
-</script>
-
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 
 	<link href='https://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet' type='text/css'>
 	<!-- <link rel="stylesheet" href="bootstrap.css"> -->
-  
-  <script src='AnytimeComputers.js'></script>
+    <script src='AnytimeComputers.js'></script>
 	<link href="main.css" rel="stylesheet">
 
 
   </head>
 
   <body>
-  	<div class= "canvas">
+<div class= "canvas">
 <div class="nav">
-      <div class="container">
-        <ul class="navbar-left" > 
+		<div class="container">
+			<ul class="navbar-left" > 
 				<li><a href="index.html">Home</a></li> 
-		</ul>
-			<ul class="navbar-right" > 
+				<li></li> 
+				<li></li> 
 				<li><a href="contact.html">Contact</a></li>
+				<li></li> 
+				<li></li> 
 				<li><a href="location.html">Location</a></li>
+				
 			</ul>
-      </div>
-    </div>
+			<ul class="navbar-right" > 
+				<li><a href="">FB link?</a></li>
+			</ul>
+			
+		</div>
+	</div>
 
 
 <div class="jumbotron">
