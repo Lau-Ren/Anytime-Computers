@@ -3,13 +3,11 @@ font-family: 'Helvetica';
 text-decoration: none;
 }
 
+/*div {
 
+   overflow: scroll;
+}*/
 
-
-div {
-  margin-top: -5px;
-margin-bottom: -5px;
-}
 
 
 
@@ -32,6 +30,11 @@ h3{
 p {
 font-size: 15px;
 color:  rgb(100, 100, 100)
+}
+
+.nav container {
+height: 40px;
+
 }
 
 .nav a{
@@ -82,7 +85,7 @@ margin-bottom: 0px;
   float: right;
   padding-right: 0px;
   margin-top: 10px;
-
+margin-bottom: 0px;
 }
 
 
@@ -109,9 +112,14 @@ margin-bottom: 0px;
 
 }
 
-.jumbotron h1 {
-   padding-top:20px;
+.jumbotron .container {
 
+  height: 110px;
+}
+
+.jumbotron h1 {
+   padding-top: 20px;
+margin-top: 0px;
 
 }
 .jumbotron h1 a{ 
