@@ -1,5 +1,6 @@
 * {
-font-family: 'Arial' ;
+font-family: 'Helvetica';
+text-decoration: none;
 }
 h1{
    font-size:24px;
@@ -20,6 +21,30 @@ h3{
 p {
 font-size: 15px;
 color:  rgb(100, 100, 100)
+}
+
+.nav a{
+  
+  color: rgb(140, 140, 140);
+  font-size: 16px;
+  padding-bottom: 10px;
+  
+}
+
+#home a{
+color: rgb(70, 70, 70);
+}
+#contact a{
+color: rgb(70, 70, 70);
+}
+
+#location a{
+color: rgb(70, 70, 70);
+}
+
+ a:hover {
+  color: rgb(70, 70, 70);
+   
 }
 
 
@@ -47,19 +72,11 @@ padding-left: 0px;
   padding-right: 0px;
 }
 
-.nav a {
-  /*font-family: 'Oxygen Mono',serif;*/
-  color: rgb(140, 140, 140);
-  font-size: 16px;
-  padding-bottom: 10px;
-  text-decoration: none;
 
-
-}
 
 .nav  {
       background-color: #f7f7f7;
-  height: 45px
+  height: 40px
 
 }
 
@@ -71,28 +88,27 @@ padding-left: 0px;
 
 
 
-.nav #contact{
-padding-left: 15px;
 
-}
-.nav #location{
-padding-left: 15px;
-
-}
 
 .jumbotron {
   height: 110px;
-  background-image: url('././images/home.jpg');
-  background-size: 1950px 600px;
+  background-color: blue;
+  background-image: url('images/Computer-dr.jpg');
+  background-size: 1009px 110px;
 
 }
 
+.jumbotron h1 {
+   padding-top:20px;
 
-.jumbotron h1{ 
+
+}
+.jumbotron h1 a{ 
+
   /*font-size:25px;*/
   font-weight: bold;
-  color: #FFFFFF;
-padding-top:20px;
+  color: rgb(255, 255, 255);
+ 
 
 }
 
